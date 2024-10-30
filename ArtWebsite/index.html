@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id = "wrapper">
+        
+        <nav>
+            <a href="#section1">Home</a>
+            <a href="#section2">Works</a>
+            <a href="#section5">About</a>
+        </nav>
+
+        <section id="section1">
+            
+            <h1>Welcome</h1>
+            <div id = "message"> 
+                <p>My name is William Vanderboom. I am an amateur artist. This a collection of some the finished works that I have done over time.  </p>
+            </div>
+        </section>
+
+        <section id="section2">
+            <h1>Section 2</h1>
+            <img id = "chess" src = "king.jpg" alt="king">
+            <p>Content for Section 2...</p>
+        </section>
+
+        <section id="section3">
+            <h1>Section 3</h1>
+            <img id = "boat" src = "boat.jpg" alt="boat">
+            <p>Content for Section 3...</p>
+        </section>
+
+        <section id="section4">
+            <h1>Section 4</h1>
+            <img id = "tree" src="tree.jpg" alt="tree">
+            <p>Content for Section 4...</p>
+        </section>
+
+        <section id="section5">
+            <h1>About</h1>
+            <div id = "entry">
+                <p>For more information or to stay up to date sign up for the monthly newsletter.
+                </p>
+                <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

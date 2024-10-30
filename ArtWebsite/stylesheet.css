@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#wrapper{
+    /*background-color: "navy-blue";*/
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+#boat,#chess,#tree{
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    top: 0px;
+    padding: 20px 20px;
+
+}
+
+nav {
+    position:relative;
+    top: 0px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+form{
+    padding-top: 15px;
+}
+
+#message, #entry{
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#section1 { background-color: #f4f4f4; text-align: center;}
+#section2 { background-color: #ccc; text-align: center; }
+#section3 { background-color: #999; text-align: center; }
+#section4 { background-color: #f4f4f4; text-align: center;}
+#section5 { background-color: #ccc; text-align: center; }
