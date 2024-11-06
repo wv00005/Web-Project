@@ -2,9 +2,57 @@
 body {
     font-family: Arial, sans-serif;
 }
+#gallery-body{
+    background-color: #333333;
+    color: #eaeaea;
+    
+}
+#gallery{
+    position: relative;
+    border-image: none;
+    a{
+        text-underline-offset: none;
+        color: #eaeaea;
+        font: italic;
+    }
+    span{
+        position: absolute;
+        left: -1000px;
+        opacity: 0;
+        transition: opacity 3s ease-in-out;
+    }
+}
+#gallery a:hover span{
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
+#ul-gallery{
+    width: 300px;
+    marker: none;
+
+}
+#li-gallery{
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+#gallery-fig{
+    position: absolute;
+    left: 280px; 
+    text-align:center;
+    opacity: 0;
+}
+
 
 #wrapper{
-    /*background-color: "navy-blue";*/
+    background-image: url("photo6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
@@ -37,9 +85,10 @@ nav a {
 
 section {
     padding: 60px 20px;
-    height: 100vh;
+    
     width: 100%;
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 form{
