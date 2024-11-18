@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+#gallery-body{
+    background-color: #333333;
+    color: #eaeaea;
+    
+}
+#gallery{
+    position: relative;
+    border-image: none;
+    a{
+        text-underline-offset: none;
+        color: #eaeaea;
+        font: italic;
+    }
+    span{
+        position: absolute;
+        left: -1000px;
+        opacity: 0;
+        transition: opacity 3s ease-in-out;
+    }
+}
+#gallery a:hover span{
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
+#ul-gallery{
+    width: 300px;
+    marker: none;
+
+}
+#li-gallery{
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+#gallery-fig{
+    position: absolute;
+    left: 280px; 
+    text-align:center;
+    opacity: 0;
+}
+
+
+#wrapper{
+    background-image: url("photo6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+#wrapper2 {
+    background: linear-gradient(to bottom, #f4f4f4, #999);
+    
+}
+
+#boat,#chess,#tree{
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    top: 0px;
+    padding: 20px 20px;
+
+}
+
+nav {
+    position:relative;
+    top: 0px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+form{
+    padding-top: 15px;
+}
+
+#message, #entry{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#section1 { 
+    /*background-color: #f4f4f4;*/
+    text-align: center;
+    text-decoration-color: #333; 
+    font-family: cursive;
+
+}
+    
+#section2 { 
+    /*background-color: #ccc;*/ 
+    text-align: center; }
+#section3 { 
+    /*background-color: #999;*/ 
+    text-align: center; }
+#section4 { 
+    /*background-color: #f4f4f4;*/ 
+    text-align: center;}
+#section5 { 
+    /*background-color: #ccc;*/ 
+    text-align: center; }
