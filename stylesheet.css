@@ -116,6 +116,26 @@ form{
     font-family: cursive;
 
 }
+table{
+    margin: auto;
+    padding-bottom: 2.5%;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px; color:#fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
     
 #section2 { 
     /*background-color: #ccc;*/ 
